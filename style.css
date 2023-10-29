@@ -1,0 +1,135 @@
+body{
+  font-family: 'Cormorant Garamond';
+}
+.header{
+  height: 95px;
+  display: flex;
+  max-width: 1330px;
+min-width: 1280px;
+margin: auto;
+}
+.main{
+  max-width: 1330px;
+min-width: 1280px;
+margin: auto;
+}
+/*div{
+  border: 1px solid rgb(255,0,0);
+}*/
+.header-link{
+  margin:auto;
+  font-size: 28px;
+  color: #10191E;
+  text-decoration: none;
+}
+.menu-link{
+  font-size: 18px;
+  margin-right: 20px;
+  color: #10191E;
+  text-decoration: none;
+}
+.project{
+  background-position: center;
+  background-size:cover;
+}
+.project_beginner{
+  width: 636px;
+  height: 430px;
+}
+.project_music-album{
+  background-image: url(https://i.ibb.co/rQf7KTt/album.png);
+}
+.project_design-principles{
+  background-image: url(https://i.ibb.co/Nm1Q6mR/design.png);
+}
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-column{
+  width: 636px;
+  height: 557px;
+  display: flex;
+  justify-content: space-between;
+}
+.project_procrastinate{
+  width: 636px;
+  height: 557px;
+}
+.project-video{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project_p5{
+  width: 636px;
+  height: 240px;
+}
+.flex-row_frameworks-inner{
+  width: 636px;
+  height: 290px;
+  justify-content: space-between;
+}
+.project_slider{
+  width: 306px;
+  height: 290px;
+  background-image: url(https://i.ibb.co/Hnz1YSf/slider.gif);
+}
+.project_reactive{
+  width: 306px;
+  height: 290px;
+  background-image: url(https://i.ibb.co/9wQMPdh/reactive.gif);
+}
+.flex-column_reversed{
+  flex-direction: column-reverse;
+}
+.flex-row_reversed{
+  flex-direction: row-reverse;
+  padding: 60px 0px 60px;
+}
+.menu{
+  min-height:75px;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
+  padding: 40px 0px 40px;
+}
+.project_vanilla{
+  width:306px;
+  height:290px;
+}
+.project_control-1{
+  background-image: url('100+ Gorgeous Free Fall Phone Wallpapers.jpg');
+  order: 2;
+}
+.project_control-2{
+background-image: url('𝐏𝐈𝐍𝐓𝐄𝐑𝐄𝐒𝐓_ 𝐋𝐔𝐍𝐀𝐑𝐑𝐌𝐎𝐎𝐍𝐒𝐒.jpg');
+  order: 1;
+  flex-basis: 636px;
+}
+.project_control-3{
+background-image: url('50 Fall Self Care Bucket List Ideas For A Cozy Girl Autumn.jpg');
+}
+.footer{
+  display: flex;
+  height: 95px;
+  justify-content: center;
+  max-width: 1330px;
+min-width: 1280px;
+margin: auto;
+}
+.logo{
+  width: 170px;
+  height: 50px;
+  align-self: center;
+  background-image: url(https://i.ibb.co/rM3t1vJ/logo-eco.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
